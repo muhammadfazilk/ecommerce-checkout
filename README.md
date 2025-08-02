@@ -16,7 +16,8 @@ This project is a simple Laravel 12 application that integrates a **MasterCard p
 
 ## 🛠 Tech Stack
 
-- Laravel 12
+- PHP ^8.2
+- Laravel ^12.0
 - Stripe PHP SDK
 - Laravel Blade
 - Laravel Mail
@@ -76,6 +77,12 @@ Use this test card to simulate a successful MasterCard transaction:
 Card Number: 5555 5555 5555 4444
 Exp Date: Any future date (e.g., 12/34)
 CVC: Any 3 digits (e.g., 123)
+
+🔐 Login Credentials
+
+Email: testuser@example.com  
+Password: 12345678
+
 
 📄 Routes
 
