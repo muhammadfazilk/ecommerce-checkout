@@ -37,7 +37,7 @@ cd ecommerce-checkout
 
 composer install
 npm install
-npm run dev
+npm run dev or npm run build
 
 3. **Set up .env file:**
 
