@@ -36,6 +36,8 @@ cd ecommerce-checkout
 2. **Install dependencies:**
 
 composer install
+npm install
+npm run dev
 
 3. **Set up .env file:**
 
@@ -44,7 +46,6 @@ php artisan key:generate
 
 4. **Configure database & Stripe keys in .env**
 
-DB_CONNECTION=mysql
 DB_DATABASE=your_database
 DB_USERNAME=root
 DB_PASSWORD=
