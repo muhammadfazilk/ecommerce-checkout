@@ -63,13 +63,9 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=no-reply@example.com
 MAIL_FROM_NAME="Ecommerce"
 
-5. **Run migrations**
+5. **Run migrations and seed fake products**
 
-php artisan migrate
-
-6. **Seed fake products:**
-
-php artisan db:seed
+php artisan migrate --seed
 
 🧪 Stripe Test Card (MasterCard)
 Use this test card to simulate a successful MasterCard transaction:
