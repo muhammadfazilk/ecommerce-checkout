@@ -17,8 +17,9 @@ class ProductFactory extends Factory
     public function definition(): array
     {
         $productNames = ['Laptop', 'Smartphone', 'Tablet', 'Monitor', 'Keyboard'];
+
         return [
-            'name' => $this->faker->randomElement($productNames) . ' #' . $this->faker->numerify('#####'),
+            'name' => $this->faker->randomElement($productNames).' #'.$this->faker->numerify('#####'),
             'price' => $this->faker->randomFloat(2, 10, 100),
         ];
     }
