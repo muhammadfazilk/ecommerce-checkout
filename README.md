@@ -78,6 +78,11 @@ Card Number: 5555 5555 5555 4444
 Exp Date: Any future date (e.g., 12/34)
 CVC: Any 3 digits (e.g., 123)
 
+🔐 Login Credentials
+
+Email: testuser@example.com  
+Password: 12345678
+
 📄 Routes
 
 | Route           | Description              |
